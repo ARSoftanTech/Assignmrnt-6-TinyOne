@@ -1,0 +1,242 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Open sans-serif;
+}
+body{}
+.main_section{
+    background-color: #FCDB00;
+    padding: 50px;
+    font-family: sans-serif;
+}
+.container{
+    width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.logo{
+    flex-basis: 20%;
+    max-width: 20%;
+}
+.logo img{}
+nav{
+    flex-basis: 80%;
+    max-width: 80%;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+nav ul li{
+    list-style: none;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+nav ul li a{
+    font-size: 22px;
+    color: #010101;
+    text-transform: capitalize;
+    text-decoration: none;
+    display: block;
+    padding: 0 15px;
+    font-weight: 700;
+}
+nav ul li a:hover{}
+
+.contant-section{
+    flex-basis: 50%;
+    max-width: 50%;
+    padding-right: 50px;
+    box-sizing: border-box;
+}
+
+.contant-section h1{
+    font-size: 32px;
+}
+
+.contant-section h3{
+    color: #444;
+    font-weight: 100;
+    font-size: 25px;
+    margin: 15px 0;
+}
+
+.contant-section p{
+    font-size: 18px;
+    color: #3530307a;
+}
+
+.social-icon{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 20px 0 0;
+}
+.social-icon li{
+    font-size: 50px;
+    padding: 10px 20px 0 0;
+}
+.social-icon li i{}
+.social-icon li i:hover{}
+
+.slide-image{
+    flex-basis: 50%;
+    max-width: 50%;
+    padding-left: 100px;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+.slide-image img{
+}
+.slide-button{
+    /* display: block; */
+    /* color: #ffffff; */
+    /* height: 20px; */
+    /* width: 20px; */
+    /* border-radius: 50px; */
+}
+.slide-button li{
+}
+.slide-button li a{
+    display: block;
+    color: #fff;
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+}
+.slide-button li a:hover{}
+
+.about-section{}
+.header{
+    text-align: center;
+    padding: 70px 0 40px 0;
+}
+.header h1{
+    font-size: 30px;
+}
+.header p{
+    font-size: 22px;
+    margin-top: 15px;
+}
+.colum{
+    flex-basis: 33.33%;
+    max-width: 33.33%;
+    padding: 15px;
+}
+.colum .flex{
+	
+display: flex;
+	
+flex-wrap: wrap;
+	
+align-items: normal;
+}
+.content-icon{flex-basis: 20%;max-width: 20%;/* padding: 15px; */font-size: 35px;}
+.content-icon i{}
+
+.content-brief{flex-basis: 80%;max-width: 80%;/* padding: 15px; */}
+.content-brief h2{
+    color: #444;
+    font-weight: 100;
+    font-size: 30px;
+}
+.content-brief p{
+    color: #4444558a;
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+.footer-content{
+    padding: 100px 0 50px;
+    background: #010101;
+}
+.subscription-area{
+}
+.subscription-area h1{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+.subscription-area p{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding: 34px 50px 37px 50px;
+}
+form{
+    flex-basis: 90%;
+    max-width: 90%;
+    margin: auto;
+}
+.input{flex-basis: 80%;max-width: 80%;padding: 0 5px;}
+.input input{
+    width: 100%;
+    padding: 15px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.submit{flex-basis: 20%;max-width: 20%;padding: 0 5px;}
+.submit input{width: 100%;padding: 14px;border: 1px solid transparent;border-radius: 5px;font-size: 18px;background-color: #FCDB00;text-transform: uppercase;font-weight: 700;}
+.submit input:hover{
+    background-color: transparent;
+    border: 1px solid #fcdb00;
+    color: #fcdb00;
+}
+
+.social-links{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.social-links li{
+    list-style: none;
+    padding: 5px;
+}
+.social-links li a{
+    background: #FCDB00;
+    color: black;
+    display: block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 5px;
+    line-height: 40px;
+}
+.social-links li a:hover{}
+
+.address{
+    flex-basis: 30%;
+    max-width: 30%;
+    font-family: open sans-serif;
+}
+.address address{
+    color: #ffff;
+    font-style: initial;
+    font-size: 18px;
+}
+
+.footer-colum{
+    flex-basis: auto;
+    max-width: 100%;
+    flex-grow: 1;
+    font-family: open sans-serif;
+}
+.footer-colum ul{font-family: open sans-serif;}
+.footer-colum ul li{
+    list-style: none;
+}
+.footer-colum ul li a{
+    color: #ffff;
+    text-decoration: none;
+}
+.footer-colum ul li a:hover{
+    color: #fcdb00;
+}
